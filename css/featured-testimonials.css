@@ -4,6 +4,7 @@ body{
     margin: 0;
     
 }
+/* container for hero image */
 .testimonial-heading{
     background-image: url(../img/boring-meeting.jpg) no-repeat;
     text-align: center;
@@ -15,13 +16,10 @@ body{
     width: 100vw;
     overflow: hidden;
 }
+/* hero image */
 .testimonial-heading img{
     position: relative;
-    /* width: 100%; */
     width: 1200px;
-
-    
-    
 }
 h1{
     text-align: center;
@@ -31,13 +29,14 @@ h1{
     left: 15%;
     
 }
-
+/* three testimonial blocks. includes profile images, content, and signature */
 .testimonial-block{
     font-size:10px;
     width: 506px;
     padding: 100px 6px 6px 6px;
     margin: 0 auto
 }
+/* testimonial titles that include line image behind title */
 h3 {
     text-align: center;
     background: url(../img/h3.png) center no-repeat;
@@ -47,21 +46,25 @@ h3 {
     margin-bottom: 17px;
     color: #dd3c04;
 }
+/* profile image area */
 .profile-photo{
     background: url(../img/photo-bg.png) center no-repeat;
     position: relative;
     float: left;
 }   
+/* profile image  */
 .profile-photo img{
     position: absolute;
     size: 140px;
 }
+/* profile image background */
 .profile-photo img.photo-bg{
     
     position: absolute;
     z-index: -1;
     size: 140px;
 }
+/* profile image in front of background image */
 .profile-photo img.photo{
     position: absolute;
     z-index: 1;
@@ -81,6 +84,7 @@ h3 {
 .testimonial-content span {
     text-indent: 10px;
 }
+/* quote image */
 .testimonial-content span.opening-quote{
     background:url(../img/opening-quote.png) no-repeat;
     width:14px;
@@ -90,6 +94,7 @@ h3 {
     top:4px;
     display:block;
 }
+/* quote image */
 .testimonial-content span.closing-quote{
     background:url(../img/closing-quote.png) no-repeat right 4px;
     width:13px;
@@ -114,6 +119,7 @@ h3 {
 .footer{
     padding: 75px;
 }
+/* all three columns */
 .column {
     float: left;
 }
@@ -129,6 +135,7 @@ h3 {
     background:url(../img/bg.gif) repeat;color:#313131;
     
 }
+/* row that includes all three columns */
 .row {
     width: 100%;
     background-color: grey;
