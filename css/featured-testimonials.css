@@ -1,11 +1,11 @@
 body{
-    background:url(img/bg.gif) repeat;color:#313131;
+    background:url(../img/bg.gif) repeat;color:#313131;
     font-family:Georgia,sans-serif;
     margin: 0;
     
 }
 .testimonial-heading{
-    background-image: url(img/boring-meeting.jpg) no-repeat;
+    background-image: url(../img/boring-meeting.jpg) no-repeat;
     text-align: center;
     background-color: grey; 
     margin: 0;
@@ -40,7 +40,7 @@ h1{
 }
 h3 {
     text-align: center;
-    background: url(img/h3.png) center no-repeat;
+    background: url(../img/h3.png) center no-repeat;
     font-weight: normal;
     text-align: center;
     text-transform: uppercase;
@@ -48,7 +48,7 @@ h3 {
     color: #dd3c04;
 }
 .profile-photo{
-    background: url(img/photo-bg.png) center no-repeat;
+    background: url(../img/photo-bg.png) center no-repeat;
     position: relative;
     float: left;
 }   
@@ -82,7 +82,7 @@ h3 {
     text-indent: 10px;
 }
 .testimonial-content span.opening-quote{
-    background:url(img/opening-quote.png) no-repeat;
+    background:url(../img/opening-quote.png) no-repeat;
     width:14px;
     height:11px;
     position:absolute;
@@ -91,7 +91,7 @@ h3 {
     display:block;
 }
 .testimonial-content span.closing-quote{
-    background:url(img/closing-quote.png) no-repeat right 4px;
+    background:url(../img/closing-quote.png) no-repeat right 4px;
     width:13px;
     height:15px;
     padding-left:4px;
@@ -126,7 +126,7 @@ h3 {
 .column-middle {
     width: 1200px;
     margin: 0 auto;
-    background:url(img/bg.gif) repeat;color:#313131;
+    background:url(../img/bg.gif) repeat;color:#313131;
     
 }
 .row {
